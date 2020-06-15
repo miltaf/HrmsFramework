@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+	<listeners>
+		<listener class-name="com.hrms.testbase.Listener"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Regression Test">
+		<groups>
+			<run>
+				<include name="regression"></include>
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.hrms.testcases" />
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

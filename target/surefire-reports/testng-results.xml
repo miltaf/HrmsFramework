@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-02T20:20:53 EDT" name="Regression Suite" finished-at="2020-06-02T20:22:07 EDT" duration-ms="74223">
+    <groups>
+      <group name="addEmp">
+        <method signature="AddEmployeeTest.addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" name="addEmployee" class="com.hrms.testcases.AddEmployeeTest"/>
+      </group> <!-- addEmp -->
+      <group name="homework">
+        <method signature="AddEmployeeTest.addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" name="addEmployee" class="com.hrms.testcases.AddEmployeeTest"/>
+      </group> <!-- homework -->
+      <group name="regression">
+        <method signature="AddEmployeeTest.addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" name="addEmployee" class="com.hrms.testcases.AddEmployeeTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2020-06-02T20:20:53 EDT" name="Regression Test" finished-at="2020-06-02T20:22:07 EDT" duration-ms="74223">
+      <class name="com.hrms.testcases.AddEmployeeTest">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" started-at="2020-06-02T20:20:53 EDT" name="generateReport" finished-at="2020-06-02T20:20:53 EDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" started-at="2020-06-02T20:20:54 EDT" name="setUp" finished-at="2020-06-02T20:21:12 EDT" duration-ms="18369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" started-at="2020-06-02T20:21:12 EDT" name="addEmployee" data-provider="userDataFromExcel" finished-at="2020-06-02T20:21:41 EDT" duration-ms="29300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jalal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jalal1344]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AmirKhan_@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" started-at="2020-06-02T20:21:42 EDT" name="tearDown" finished-at="2020-06-02T20:21:42 EDT" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" started-at="2020-06-02T20:21:42 EDT" name="setUp" finished-at="2020-06-02T20:21:48 EDT" duration-ms="5310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" started-at="2020-06-02T20:21:48 EDT" name="addEmployee" data-provider="userDataFromExcel" finished-at="2020-06-02T20:22:06 EDT" duration-ms="18068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Meriam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mary45615]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AmirKhan_@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" started-at="2020-06-02T20:22:06 EDT" name="tearDown" finished-at="2020-06-02T20:22:07 EDT" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="writeReport()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@8909f18]" started-at="2020-06-02T20:22:07 EDT" name="writeReport" finished-at="2020-06-02T20:22:07 EDT" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- com.hrms.testcases.AddEmployeeTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
